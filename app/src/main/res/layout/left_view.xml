@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+
+    <View style="@style/line_blue_5_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <FrameLayout
+            android:id="@+id/fl_fist_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ecode" />
+
+            <ImageView
+                android:id="@+id/iv_start_fist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+        <TextView
+            style="@style/txt_blue_small_more"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/btn_inner_padding"
+            android:text="关注浆站" />
+
+    </LinearLayout>
+
+    <View style="@style/line_blue_5_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/appoint" />
+
+        <TextView
+            style="@style/txt_blue_small_more"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/btn_inner_padding"
+            android:text="预约服务" />
+    </LinearLayout>
+
+    <View style="@style/line_blue_5_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/sugeval" />
+
+        <TextView
+            style="@style/txt_blue_small_more"
+            android:layout_marginBottom="@dimen/btn_inner_padding"
+            android:text="服务评价" />
+    </LinearLayout>
+
+    <View style="@style/line_blue_5_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/iv_call"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/iv_call_selector" />
+
+        <TextView
+            style="@style/txt_blue_small_more"
+            android:layout_marginBottom="@dimen/btn_inner_padding"
+            android:text="呼叫护士" />
+
+
+
+    </LinearLayout>
+
+    <View style="@style/line_blue_5_style" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_rise"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/iv_adjut_position_rise_selector" />
+
+            <ImageView
+                android:id="@+id/iv_down"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/iv_adjut_position_down_selector" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/txt_blue_small_more"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/btn_inner_padding"
+            android:text="座椅调节" />
+
+    </LinearLayout>
+
+    <View style="@style/line_blue_5_style" />
+
+</LinearLayout>
